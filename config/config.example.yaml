@@ -1,0 +1,27 @@
+# Copy this file to config.yaml and replace every placeholder.
+# Never commit config.yaml, passwords, or private keys.
+
+raspberry_pis:
+  NanoPS:
+    host: "192.0.2.10"
+    username: "replace_with_nanops_user"
+    script: "/home/replace_with_nanops_user/tuda_iass/nanoserver.py"
+    # key_filename: "~/.ssh/id_ed25519"
+    # known_hosts_file: "~/.ssh/known_hosts"
+    # password_env: "TUDA_NANOPS_SSH_PASSWORD"
+
+  MultiMINI8:
+    host: "192.0.2.11"
+    username: "replace_with_multimini_user"
+    script: "/home/replace_with_multimini_user/tuda_iass/miniserver.py"
+    # key_filename: "~/.ssh/id_ed25519"
+    # known_hosts_file: "~/.ssh/known_hosts"
+    # password_env: "TUDA_MULTIMINI_SSH_PASSWORD"
+
+  SPAFiS:
+    host: "192.0.2.12"
+    username: "replace_with_spafis_user"
+    script: "/home/replace_with_spafis_user/tuda_iass/spafisserver.py"
+    # key_filename: "~/.ssh/id_ed25519"
+    # known_hosts_file: "~/.ssh/known_hosts"
+    # password_env: "TUDA_SPAFIS_SSH_PASSWORD"

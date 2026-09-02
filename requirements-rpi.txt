@@ -1,0 +1,4 @@
+adafruit-blinka>=8.0.0
+adafruit-circuitpython-max31865>=2.2.0
+RPi.GPIO>=0.7.1
+spidev>=3.6.0

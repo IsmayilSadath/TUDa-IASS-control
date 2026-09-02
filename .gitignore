@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local settings
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Private instrument configuration
+config/config.yaml
+
+# Runtime output
+logs/
+runtime/
+*.log
+*state.dat
+*state.dat.tmp
+
+# Editors and operating systems
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+
+# Local release archives
+*.zip
